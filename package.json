@@ -1,0 +1,20 @@
+{
+  "name": "bookme",
+  "version": "1.0.0",
+  "description": "cli tool to add bookmarks to your ",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "uguremirmustafa",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^0.1.8",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.0"
+  }
+}
